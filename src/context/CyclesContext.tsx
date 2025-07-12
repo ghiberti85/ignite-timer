@@ -28,8 +28,6 @@ interface CyclesContextProviderProps {
 
 export function CyclesContextProvider({ children }: CyclesContextProviderProps) {
 
-
-
     const [cyclesState, dispatch] = useReducer(
         cyclesReducer, 
         {
